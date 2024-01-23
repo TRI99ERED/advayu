@@ -17,5 +17,9 @@
                 "path": "./themes/AdvAyu.json"
             }
         ]
+    },
+    "repository": {
+        "url": "https://github.com/TRI99ERED/advayu",
+        "type": "github"
     }
 }
