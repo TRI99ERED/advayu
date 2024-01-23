@@ -1,6 +1,7 @@
 {
     "name": "advayu",
     "displayName": "AdvAyu",
+    "publisher": "TRI99ER",
     "description": "Theme based on rustdoc and Ayu Next",
     "version": "0.0.1",
     "engines": {
