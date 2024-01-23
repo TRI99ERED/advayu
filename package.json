@@ -1,0 +1,21 @@
+{
+    "name": "advayu",
+    "displayName": "AdvAyu",
+    "description": "Theme based on rustdoc and Ayu Next",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "AdvAyu",
+                "uiTheme": "vs-dark",
+                "path": "./themes/AdvAyu.json"
+            }
+        ]
+    }
+}
