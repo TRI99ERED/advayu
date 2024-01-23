@@ -2,8 +2,8 @@
     "name": "advayu",
     "displayName": "AdvAyu",
     "publisher": "TRI99ER",
-    "description": "Theme based on rustdoc and Ayu Next",
-    "version": "0.0.1",
+    "description": "Theme based on rustdoc ayu and Dracula For Rust Theme",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.85.0"
     },

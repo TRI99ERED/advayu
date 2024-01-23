@@ -2,83 +2,7 @@
     "name": "AdvAyu",
     "type": "dark",
     "semanticHighlighting": true,
-    "semanticTokenColors": {
-        "keyword": {
-            "foreground": "#F6722B"
-        },
-        "operator": {
-            "foreground": "#E2DECF"
-        },
-        "arithmetic": {
-            "foreground": "#E2DECF"
-        },
-        "comparison": {
-            "foreground": "#E2DECF"
-        },
-        "logical": {
-            "foreground": "#E2DECF"
-        },
-        "bitwise": {
-            "foreground": "#E2DECF"
-        },
-        "string": {
-            "foreground": "#B2CB52"
-        },
-        "character": {
-            "foreground": "#B2CB52"
-        },
-        "number": {
-            "foreground": "#B2CB52"
-        },
-        "boolean": {
-            "foreground": "#F6722B"
-        },
-        "enumMember": {
-            "foreground": "#F6722B"
-        },
-        "function.declaration": {
-            "foreground": "#FDD990"
-        },
-        "method.declaration": {
-            "foreground": "#FDD990"
-        },
-        "struct": {
-            "foreground": "#FCA0A7"
-        },
-        "enum": {
-            "foreground": "#98DFC6"
-        },
-        "interface": {
-            "foreground": "#30ADD6"
-        },
-        "typeAlias": {
-            "foreground": "#D5C3FB"
-        },
-        "builtinType": {
-            "foreground": "#F6722B"
-        },
-        "namespace.declaration": {
-            "foreground": "#AFD1FC"
-        },
-        "variable.constant": {
-            "foreground": "#6882A4"
-        },
-        "variable.static": {
-            "foreground": "#6882A4"
-        },
-        "lifetime": {
-            "foreground": "#F6722B"
-        },
-        "macro": {
-            "foreground": "#A279CE"
-        },
-        "*.attribute": {
-            "foreground": "#E2DECF"
-        },
-        "comment": {
-            "foreground": "#7E868E"
-        }
-    },
+
     "colors": {
         "editorBracketHighlight.foreground1": "#ffff40",
         "editorBracketHighlight.foreground2": "#7fff7f",
@@ -109,12 +33,19 @@
             "name": "Variables",
             "scope": [
                 "variable",
-                "declaration",
-                "entity.name.variable",
-                "string constant.other.placeholder"
+                "string constant.other.placeholder",
+                "entity.name.variable"
             ],
             "settings": {
                 "foreground": "#6882A4"
+            }
+        },
+        {
+            "scope": [
+                "source"
+            ],
+            "settings": {
+                "foreground": "#E2DECF"
             }
         },
         {
@@ -173,6 +104,16 @@
             }
         },
         {
+            "name": "Lifetime",
+            "scope": [
+                "entity.name.type.lifetime.rust",
+                "storage.modifier.lifetime.rust"
+            ],
+            "settings": {
+                "foreground": "#B2CB52"
+            }
+        },
+        {
             "name": "Tag",
             "scope": [
                 "entity.name.tag",
@@ -216,14 +157,12 @@
             }
         },
         {
-            "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+            "name": "Number, Constant, Tag Attribute, Embedded",
             "scope": [
                 "constant.numeric",
-                "constant.language",
                 "support.constant",
                 "constant.character",
                 "constant.escape",
-                "variable.parameter",
                 "keyword.other.unit"
             ],
             "settings": {
@@ -247,7 +186,8 @@
         },
         {
             "scope": [
-                "entity.name.type.class"
+                "entity.name.type.class",
+                "entity.name.class"
             ],
             "settings": {
                 "foreground": "#FF6688"
@@ -257,9 +197,7 @@
             "scope": [
                 "entity.name.type.struct",
                 "storage.type.struct",
-                "entity.name.type",
-                "entity.name.type.struct.cpp",
-                "entity.name.type.struct.c"
+                "entity.name.type"
             ],
             "settings": {
                 "foreground": "#FCA0A7"
@@ -316,6 +254,7 @@
         {
             "scope": [
                 "entity.name.namespace",
+                "entity.name.type.namespace",
                 "entity.name.module"
             ],
             "settings": {
@@ -332,7 +271,7 @@
                 "support.type.sys-types"
             ],
             "settings": {
-                "foreground": "#398BA9"
+                "foreground": "#AFD1FC"
             }
         },
         {
@@ -346,7 +285,7 @@
                 "source.postcss support.type.property-name"
             ],
             "settings": {
-                "foreground": "#398BA9"
+                "foreground": "#6882A4"
             }
         },
         {
