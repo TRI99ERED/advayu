@@ -2,7 +2,6 @@
     "name": "AdvAyu",
     "type": "dark",
     "semanticHighlighting": true,
-
     "colors": {
         "editorBracketHighlight.foreground1": "#ffff40",
         "editorBracketHighlight.foreground2": "#7fff7f",
@@ -15,7 +14,14 @@
         "editor.lineHighlightBackground": "#2A2A2B",
         "editor.inactiveSelectionBackground": "#3a3d41",
         "editor.selectionHighlightBackground": "#add6ff26",
-        "editorIndentGuide.background1": "#404040",
+        "editorIndentGuide.activeBackground1": "#ffff40",
+        "editorIndentGuide.activeBackground2": "#7fff7f",
+        "editorIndentGuide.activeBackground3": "#ff7fff",
+        "editorIndentGuide.activeBackground4": "#ff6e42",
+        "editorIndentGuide.background1": "#ffff4088",
+        "editorIndentGuide.background2": "#7fff7f88",
+        "editorIndentGuide.background3": "#ff7fff88",
+        "editorIndentGuide.background4": "#ff6e4288",
         "foreground": "#E2DECF"
     },
     "tokenColors": [
